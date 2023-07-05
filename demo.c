@@ -30,6 +30,8 @@ int set_speed(int fd, int speed)
     int index = 0;
     int status = 0;
     int speed_arr[] = {
+        B1500000,
+        B115200,
         B38400,
         B19200,
         B9600,
@@ -39,6 +41,8 @@ int set_speed(int fd, int speed)
         B300,
     };
     int name_arr[] = {
+        1500000,
+        115200,
         38400,
         19200,
         9600,
